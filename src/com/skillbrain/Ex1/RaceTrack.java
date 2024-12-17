@@ -8,7 +8,7 @@ public class RaceTrack {
     }
 
     public boolean carCanFinish(NeedForSpeed car) {
-        // Calcuulate the maximum distance the car drive
+        // Calculate the maximum distance the car drive
         int maxDistance = (car.battery / car.baterryDrain) * car.speed;
         return maxDistance >= this.distance;
     }
