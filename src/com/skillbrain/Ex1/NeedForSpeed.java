@@ -1,7 +1,7 @@
 package com.skillbrain.Ex1;
 
 public class NeedForSpeed {
-    // Parameters
+    // Parametrii
     public int speed;
     public int baterryDrain;
     public int battery;
