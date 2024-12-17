@@ -15,7 +15,7 @@ public class NeedForSpeed {
         this.meterDriven = 0;
     }
 
-    //Car drive
+    //Masina drive
     public void drive() {
         if (this.battery >= this.baterryDrain) {
             this.meterDriven += this.speed;
